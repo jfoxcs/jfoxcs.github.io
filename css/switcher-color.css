@@ -1,0 +1,394 @@
+.demo-color-panel{
+	position:fixed;
+	display:block;
+	width:250px;
+	height:300px;
+	background:#e6e6e6;
+	top:130px;
+	left:0px;
+	text-align:center;
+	z-index:99999999;
+	border:1px solid #fff;
+}
+.color-panel-box{
+	margin-top:20px;
+	padding:5px;
+	text-align:center;
+	margin-left: 15px;
+}
+.switcher-header {
+    margin-bottom: 25px;
+}
+.switcher-header h5{
+    background: #196FC0;
+    color: #fff;
+    width: 188px;
+    padding: 14px;
+    font-size: 24px;
+    text-align: center;
+	margin-left: 12px;
+}
+.all-color p{
+	text-align: left;
+    color: #0D1518;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+	margin-left: 12px;
+}
+.spinner-button{
+    width: 50px;
+    height: 48px;
+    display: block;
+    background: #196FC0;
+    position: absolute;
+    right: -51px;
+    top: 35px;
+    z-index: 999;
+    color: #fff;
+    padding-top: 9px;
+    font-size: 30px;
+}
+.spinner-button:hover{
+cursor:pointer;
+}
+.color-panel-box span{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-left: 21px;
+    border-radius: 10px 0px;
+    margin-bottom: 15px;
+}
+.color-panel-box span:hover{
+    border-radius: 0px 10px;
+	cursor:pointer;
+	transition:0.5s
+	
+}
+.main-color{
+	position:relative;
+}
+.color-panel-box span.main-color{
+	background-color:#196FC0;
+}
+.color-panel-box span.blue-color{
+	background-color:#904EAB;
+}
+.color-panel-box span.yellow-color{
+	background-color:#FFAE00;
+}
+.color-panel-box span.red-color{
+	background-color:#FF6B6B;
+}
+.color-panel-box span.black-color{
+	background-color:#0D1518;
+}
+.color-panel-box span.green-color{
+	background-color:#16A085;
+}
+
+
+
+
+/* for main color */
+.main-color-bar .switcher-header h5, .main-color-bar .spinner-button{
+	background:#196FC0;
+}
+
+
+
+/* for blue color 
+=============================*/
+/* for background */
+.blue-color-bar .switcher-header h5, 
+.blue-color-bar .spinner-button, 
+.blue-color-bar .carousel-caption h5:before, 
+.blue-color-bar .header-section, 
+.blue-color-bar .service-middle-content, 
+.blue-color-bar .experence-content a, 
+.blue-color-bar .about-content:hover .about-icon > a,
+.blue-color-bar .service-item:hover .service-icon > a,
+.blue-color-bar .bar, 
+.blue-color-bar .label, 
+.blue-color-bar .bar.color2, 
+.blue-color-bar .bar.color3, 
+.blue-color-bar .bar.color4, 
+.blue-color-bar .bar.color5, 
+.blue-color-bar .counter-item:hover span, 
+.blue-color-bar .nav > li > a:hover, .nav > li > a:focus ,
+.blue-color-bar .first-btn:hover ,
+.blue-color-bar .twitter-flower a:hover,
+.blue-color-bar .contact-button button:hover,
+.blue-color-bar .twitter-icon:hover,
+.blue-color-bar .nav-pills > li.active > a, .blue-color-bar .nav-pills > li.active > a:hover, .blue-color-bar .nav-pills > li.active > a:focus,
+.blue-color-bar .testimonial-section,
+.blue-color-bar .team-overlay, 
+.blue-color-bar .second-btn, 
+.blue-color-bar .timeline-heading span, 
+.blue-color-bar #our-client a, 
+.blue-color-bar #footer,
+.blue-color-bar .back-top a
+{
+	background:#904EAB;
+}
+
+.blue-color-bar .nav-pills li.active:after{
+	border-color: #904EAB transparent transparent transparent;
+}
+.blue-color-bar #page-design:before{
+	border-color: rgb(160, 107, 182) transparent transparent transparent;
+}
+.blue-color-bar .page-overlay,
+.blue-color-bar .img-overlay{
+	background: rgba(144, 78, 171, 0.81);
+}
+
+/* for color */
+.blue-color-bar .carousel-caption > h1 > span,
+.blue-color-bar .carousel-caption h5,
+.blue-color-bar h1,
+.blue-color-bar .media-heading i,
+.blue-color-bar .experence-content > h1 > span,
+.blue-color-bar .tab-icon i{
+	color:#904EAB;
+}
+
+
+
+
+
+
+/* for yellow color 
+=============================*/
+/* for background */
+.yellow-color-bar .switcher-header h5, 
+.yellow-color-bar .spinner-button, 
+.yellow-color-bar .carousel-caption h5:before, 
+.yellow-color-bar .header-section, 
+.yellow-color-bar .service-middle-content, 
+.yellow-color-bar .experence-content a, 
+.yellow-color-bar .about-content:hover .about-icon > a,
+.yellow-color-bar .service-item:hover .service-icon > a,
+.yellow-color-bar .bar, 
+.yellow-color-bar .label, 
+.yellow-color-bar .bar.color2, 
+.yellow-color-bar .bar.color3, 
+.yellow-color-bar .bar.color4, 
+.yellow-color-bar .bar.color5, 
+.yellow-color-bar .counter-item:hover span, 
+.yellow-color-bar .nav > li > a:hover, .nav > li > a:focus ,
+.yellow-color-bar .first-btn:hover ,
+.yellow-color-bar .twitter-flower a:hover,
+.yellow-color-bar .contact-button button:hover,
+.yellow-color-bar .twitter-icon:hover,
+.yellow-color-bar .nav-pills > li.active > a, .yellow-color-bar .nav-pills > li.active > a:hover, .yellow-color-bar .nav-pills > li.active > a:focus,
+.yellow-color-bar .testimonial-section,
+.yellow-color-bar .team-overlay, 
+.yellow-color-bar .second-btn, 
+.yellow-color-bar .timeline-heading span, 
+.yellow-color-bar #our-client a, 
+.yellow-color-bar #footer,
+.yellow-color-bar .back-top a
+{
+	background:#FFAE00;
+}
+
+.yellow-color-bar .nav-pills li.active:after{
+	border-color: #FFAE00 transparent transparent transparent;
+}
+.yellow-color-bar #page-design:before{
+	border-color: rgb(251, 184, 42) transparent transparent transparent;
+}
+.yellow-color-bar .page-overlay,
+.yellow-color-bar .img-overlay{
+	background: rgba(255, 174, 0, 0.82);
+}
+
+/* for color */
+.yellow-color-bar .carousel-caption > h1 > span,
+.yellow-color-bar .carousel-caption h5,
+.yellow-color-bar h1,
+.yellow-color-bar .media-heading i,
+.yellow-color-bar .experence-content > h1 > span,
+.yellow-color-bar .tab-icon i{
+	color:#FFAE00;
+}
+
+
+
+
+/* for red color
+======================= */
+/* for background */
+.red-color-bar .switcher-header h5, 
+.red-color-bar .spinner-button, 
+.red-color-bar .carousel-caption h5:before, 
+.red-color-bar .header-section, 
+.red-color-bar .service-middle-content, 
+.red-color-bar .experence-content a, 
+.red-color-bar .about-content:hover .about-icon > a,
+.red-color-bar .service-item:hover .service-icon > a,
+.red-color-bar .bar, 
+.red-color-bar .label, 
+.red-color-bar .bar.color2, 
+.red-color-bar .bar.color3, 
+.red-color-bar .bar.color4, 
+.red-color-bar .bar.color5, 
+.red-color-bar .counter-item:hover span, 
+.red-color-bar .nav > li > a:hover, .nav > li > a:focus ,
+.red-color-bar .first-btn:hover ,
+.red-color-bar .twitter-flower a:hover,
+.red-color-bar .contact-button button:hover,
+.red-color-bar .twitter-icon:hover,
+.red-color-bar .nav-pills > li.active > a, .red-color-bar .nav-pills > li.active > a:hover, .red-color-bar .nav-pills > li.active > a:focus,
+.red-color-bar .testimonial-section,
+.red-color-bar .team-overlay, 
+.red-color-bar .second-btn, 
+.red-color-bar .timeline-heading span, 
+.red-color-bar #our-client a, 
+.red-color-bar #footer,
+.red-color-bar .back-top a
+{
+	background:#FF6B6B;
+}
+
+.red-color-bar .nav-pills li.active:after{
+	border-color: #FF6B6B transparent transparent transparent;
+}
+.red-color-bar #page-design:before{
+	border-color: rgb(248, 128, 127) transparent transparent transparent;
+}
+.red-color-bar .page-overlay,
+.red-color-bar .img-overlay{
+	background: rgba(255, 107, 107, 0.82)
+}
+
+/* for color */
+.red-color-bar .carousel-caption > h1 > span,
+.red-color-bar .carousel-caption h5,
+.red-color-bar h1,
+.red-color-bar .media-heading i,
+.red-color-bar .experence-content > h1 > span,
+.red-color-bar .tab-icon i{
+	color:#FF6B6B;
+}
+
+
+
+/* for black color
+========================== */
+/* for background */
+.black-color-bar .switcher-header h5, 
+.black-color-bar .spinner-button, 
+.black-color-bar .carousel-caption h5:before, 
+.black-color-bar .header-section, 
+.black-color-bar .service-middle-content, 
+.black-color-bar .experence-content a, 
+.black-color-bar .about-content:hover .about-icon > a,
+.black-color-bar .service-item:hover .service-icon > a,
+.black-color-bar .bar, 
+.black-color-bar .label, 
+.black-color-bar .bar.color2, 
+.black-color-bar .bar.color3, 
+.black-color-bar .bar.color4, 
+.black-color-bar .bar.color5, 
+.black-color-bar .counter-item:hover span, 
+.black-color-bar .nav > li > a:hover, .nav > li > a:focus ,
+.black-color-bar .first-btn:hover ,
+.black-color-bar .twitter-flower a:hover,
+.black-color-bar .contact-button button:hover,
+.black-color-bar .twitter-icon:hover,
+.black-color-bar .nav-pills > li.active > a, .red-color-bar .nav-pills > li.active > a:hover, .red-color-bar .nav-pills > li.active > a:focus,
+.black-color-bar .testimonial-section,
+.black-color-bar .team-overlay, 
+.black-color-bar .second-btn, 
+.black-color-bar .timeline-heading span, 
+.black-color-bar #our-client a, 
+.black-color-bar #footer,
+.black-color-bar .back-top a
+{
+	background:#1E1E1E;
+}
+.black-color-bar .navbar-right > li.active > a{
+	    background: #8a6d3b !important;
+}
+
+.black-color-bar .nav-pills li.active:after{
+	border-color: #1E1E1E transparent transparent transparent;
+}
+.black-color-bar #page-design:before{
+	border-color: rgb(57, 57, 57) transparent transparent transparent;
+}
+.black-color-bar .page-overlay,
+.black-color-bar .img-overlay{
+	background: rgba(13, 21, 24, 0.82);
+}
+
+/* for color */
+.black-color-bar .carousel-caption > h1 > span,
+.black-color-bar .carousel-caption h5,
+.black-color-bar h1,
+.black-color-bar .media-heading i,
+.black-color-bar .experence-content > h1 > span,
+.black-color-bar .tab-icon i{
+	color:#1E1E1E;
+}
+
+
+
+/* for green color
+====================== */
+/* for background */
+.green-color-bar .switcher-header h5, 
+.green-color-bar .spinner-button, 
+.green-color-bar .carousel-caption h5:before, 
+.green-color-bar .header-section, 
+.green-color-bar .service-middle-content, 
+.green-color-bar .experence-content a, 
+.green-color-bar .about-content:hover .about-icon > a,
+.green-color-bar .service-item:hover .service-icon > a,
+.green-color-bar .bar, 
+.green-color-bar .label, 
+.green-color-bar .bar.color2, 
+.green-color-bar .bar.color3, 
+.green-color-bar .bar.color4, 
+.green-color-bar .bar.color5, 
+.green-color-bar .counter-item:hover span, 
+.green-color-bar .nav > li > a:hover, .nav > li > a:focus ,
+.green-color-bar .first-btn:hover ,
+.green-color-bar .twitter-flower a:hover,
+.green-color-bar .contact-button button:hover,
+.green-color-bar .twitter-icon:hover,
+.green-color-bar .nav-pills > li.active > a, .red-color-bar .nav-pills > li.active > a:hover, .red-color-bar .nav-pills > li.active > a:focus,
+.green-color-bar .testimonial-section,
+.green-color-bar .team-overlay, 
+.green-color-bar .second-btn, 
+.green-color-bar .timeline-heading span, 
+.green-color-bar #our-client a, 
+.green-color-bar #footer,
+.green-color-bar .back-top a
+{
+	background:#16A085;
+}
+
+.green-color-bar .nav-pills li.active:after{
+	border-color: #16A085 transparent transparent transparent;
+}
+.green-color-bar #page-design:before{
+    border-color: rgb(60, 173, 152) transparent transparent transparent;
+}
+.green-color-bar .page-overlay,
+.green-color-bar .img-overlay{
+	background: rgba(22, 160, 133, 0.81);
+}
+
+/* for color */
+.green-color-bar .carousel-caption > h1 > span,
+.green-color-bar .carousel-caption h5,
+.green-color-bar h1,
+.green-color-bar .media-heading i,
+.green-color-bar .experence-content > h1 > span,
+.green-color-bar .tab-icon i{
+	color:#16A085;
+}
