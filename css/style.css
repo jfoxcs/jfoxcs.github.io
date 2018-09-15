@@ -2409,7 +2409,8 @@ form input, form textarea{
 }	
 .navbar-brand > img {
     display: block;
-    width: 55%;
+	width: 25%;
+	padding-top: 2vh;
 }
 .navbar-right > li > a {
     padding: 10px 14px!important;
