@@ -417,7 +417,147 @@ ul.timeline > li > .timeline-badge {
 
 
 
-
+@media (max-width: 420px){
+    h1 {
+       font-size: 25px;
+   }
+   .carousel-caption > h1 {
+       font-size: 45px;
+   }
+   .carousel-caption h5:before {
+       left: 28%;
+   }
+   .logo-part {
+       margin-left: -36px;
+   }
+   .wellcome-header h2, .about-heading h2, .counter-footer h2, .team-header h2 {
+       letter-spacing: 1px;
+   }
+   .experence-content h1 {
+       font-size: 20px;
+   }
+   .nav-pills li {
+       width: 100%;
+       text-align: center;
+       margin-top: 40px;
+   }
+   .nav-pills li.active:after {
+       border-color: #EEEEEE transparent transparent transparent;
+    }
+    .nav-pills > li > a {
+       border-radius: 0px;
+   }
+   .service-content p {
+       max-width: 100%;
+       margin: 0 auto;
+   }
+   .team-overlay a {
+       width: 35px;
+       height: 35px;
+       font-size: 24px;
+       line-height: 35px;
+       margin-right: -10px;
+       margin-top: 50px;
+    }
+   .team-overlay h3:before {
+       left: 39%;
+       top: 33px;
+   }
+    .page-content h1, .page-content h2 {
+       font-size: 25px;
+       line-height: 140%;
+    }
+    .page-content p {
+       font-size: 14px;
+   }
+    .first-btn {
+       margin-right: 10px;
+    }
+    .first-btn {
+       padding: 13px 20px;
+   }
+   .first-btn:hover {
+      padding: 13px 20px;
+   }
+    #page-design:before {
+       left: 52%;
+    }
+    .timeline-header h1 {
+       font-size: 20px;
+   }
+   .timeline-title {
+       font-size: 8px;
+       padding-left: 16px;
+       margin-left: -10px;
+   }
+   .timeline-heading span {
+       padding: 15px 8px;
+    }
+    .timeline-toper {
+       left: 6%;
+   }
+   .timeline-footer {
+       left: 6%;
+   }
+   .button-group .button {
+       margin: 5px 0px;
+    }
+    #our-works hr {
+       margin-top: 1px;
+   }
+   .grid figcaption h3 {
+       font-size: 18px;
+   }
+   .impressed-content h1 {
+       font-size: 25px;
+       line-height: 140%;
+    }
+    .client-header h2 {
+       font-size: 20px;
+   }
+   .client-header h2:before {
+       left: 36%;
+   }
+   
+   #twitter-part h4:before, .contact-header p:before, .timeline-header h1:before {
+       left: 40%;
+   }
+   #our-client a {
+       padding: 14px 50px;
+       border: 5px solid #fff;
+   }
+   #our-client p {
+       max-width: 100%;
+       text-align: justify;
+   }
+   #twitter-part p {
+       text-align: justify;
+   }
+   #footer a {
+       width: 30px;
+       height: 30px;
+       font-size: 18px;
+       line-height: 30px;
+       margin-right: 8px;
+   } 
+   .contact-header h2 {
+       letter-spacing: 0px;
+   }
+   .wellcome-header h2:before {
+       left: 4%;
+   }
+   .wellcome-header h2:after {
+       left: 80%;
+   }
+   .wellcome-header h2, .about-heading h2, .counter-footer h2, .team-header h2 {
+       letter-spacing: 0px;
+       font-size: 11px;
+   }
+   .team-header h2:before, .counter-footer h2:before, .contact-header h2:before, .about-heading h2:before {
+       left: -2%;
+   }
+   }
+   
 
 
 
